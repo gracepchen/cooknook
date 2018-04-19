@@ -1,0 +1,110 @@
+.column {
+	border-radius: 7px;
+	/* border: 10px solid; */
+	padding: 10px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height:100%;
+	/* display: flex; */
+	/* float: left;  */
+}
+
+.form-inline {
+	padding: 5px;
+}
+
+.dockbtn {
+	display: inline;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: none;
+	/* border: 1px solid black; */
+	margin: auto;
+	text-shadow: 2px 2px #a1a1a1;
+	/* font-family: 'Righteous', cursive; */
+}
+
+.column_wrapper {
+	padding: 10px;
+	float: left;
+	height: auto;
+} 
+
+body {
+	color: white;
+	position: fixed; 
+	overflow: hidden;
+	width: 100%;
+}
+
+#page_viewer {
+	width: 100%;
+	/* padding: 20px; */
+	position: fixed; 
+	overflow: hidden;
+}
+#dockToggleButton {
+	width: 100px;
+	bottom: 0px;
+	/*position: absolute;*/
+}
+
+.delete {
+	background: #E3170D;
+	border-radius: 50%;
+	display: inline-block;
+	font-family: "Lato", sans-serif;
+	font-size: 16.5px;
+	margin-left: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 0;
+	color: #FFF;
+	cursor: pointer;
+	outline: 0;
+}
+
+li {
+	font-family: 'Lato', sans-serif;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+}
+
+h5 {
+	font-family: 'Lato', sans-serif;
+}
+button {
+	font-family: 'Lato', sans-serif;
+
+}
+
+.searchbutton {
+	display: inline-block;
+	margin: 0 5px;
+	border-radius: 25px;
+	font-family: "Lato", sans-serif;
+	font-size: 16.5px;
+	padding: 12px 20px;
+	border: 0;
+	background: #9ACD32;
+	color: #FFF;
+	cursor: pointer;
+	outline: 0;
+	padding: 12px 25px;
+
+}
+
+.searchbutton:hover {
+	background: #6B8E23;
+}
+
+
+
+
